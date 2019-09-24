@@ -23,7 +23,7 @@ namespace Tdlr.Utils
         private static string appKey = ConfigurationManager.AppSettings["ida:AppKey"];
         private static string graphResourceId = ConfigurationManager.AppSettings["ida:GraphUrl"];
         private static string graphApiVersion = ConfigurationManager.AppSettings["ida:GraphApiVersion"];
-        private static readonly string postLogoutRedirectUri = ConfigurationManager.AppSettings["ida:PostLogoutRedirectUri"];
+        private static string postLogoutRedirectUri = ConfigurationManager.AppSettings["ida:PostLogoutRedirectUri"];
         private static string tenant = ConfigurationManager.AppSettings["ida:Tenant"];
         private static string taskApiResourceId = ConfigurationManager.AppSettings["ida:TaskApiResourceId"];
 
